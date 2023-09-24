@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankApplication.Common\BankApplication.Common.csproj" />
+    <ProjectReference Include="..\BankApplication.Core\BankApplication.Core.csproj" />
+    <ProjectReference Include="..\BankApplication.Model\BankApplication.Model.csproj" />
+  </ItemGroup>
+
+</Project>

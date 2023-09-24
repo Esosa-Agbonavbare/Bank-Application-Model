@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BankApplication.Console/1.0.0": {
+        "dependencies": {
+          "BankApplication.Common": "1.0.0",
+          "BankApplication.Core": "1.0.0",
+          "BankApplication.Model": "1.0.0"
+        },
+        "runtime": {
+          "BankApplication.Console.dll": {}
+        }
+      },
+      "BankApplication.Common/1.0.0": {
+        "dependencies": {
+          "BankApplication.Core": "1.0.0",
+          "BankApplication.Model": "1.0.0"
+        },
+        "runtime": {
+          "BankApplication.Common.dll": {}
+        }
+      },
+      "BankApplication.Core/1.0.0": {
+        "dependencies": {
+          "BankApplication.Model": "1.0.0"
+        },
+        "runtime": {
+          "BankApplication.Core.dll": {}
+        }
+      },
+      "BankApplication.Model/1.0.0": {
+        "runtime": {
+          "BankApplication.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankApplication.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankApplication.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankApplication.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankApplication.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
